@@ -65,7 +65,7 @@ class GUI():
         self.root = Tk()
         self.root.configure(bg="#ffffff")
         self.root.geometry("900x414")
-        self.root.iconbitmap("./icon.ico")
+        #self.root.iconbitmap("./icon.ico")
         self.root.title("Tabla periódica de los elementos")
         self.root.resizable(False, False)
         self.buttonsFrame = self.createFButtons()
